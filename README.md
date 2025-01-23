@@ -12,4 +12,4 @@ There's a ton of side notes and other junk and stuff that are in the program
        || if you have any questions, this web application can be used to experiment so have fun coding!  ||
 
 Enjoy!
-- Egon
+- Eegon
