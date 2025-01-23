@@ -1,8 +1,10 @@
-# React + Vite
+# Add two numbers uses React + Vite 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Using Reacyt + Vite I made a code that simply adds two numbers together
+the style of the page is sleek and easy to look at
+I was worried about it looking like a 90s website (which isn't bad but ya know, could look better)
 
-Currently, two official plugins are available:
+Anyways the web-application will be a stepping-stone for a much larger project I'm working
+on and will be published later! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Enjoy!
