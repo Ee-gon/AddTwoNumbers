@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+
+/* .num1, .num2 {
+
+  text-align: center;
+  display: inline-block;;      
+  
+  this didn't work because The issue is that you are using a class selector .smallComment instead of an ID selector #smallComment. 
+
+  In CSS, IDs are selected with a "#" symbol, while classes are selected with a "." symbol.
+
+} */
+
+#smallComment{
+  color: #888;
+}
+
+.rotating-input {
+  transition: transform 300ms;
+}
+
+.rotating-input:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes rotating-input-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rotating-input {
+    animation: rotating-input-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
